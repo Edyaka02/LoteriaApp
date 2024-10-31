@@ -26,7 +26,7 @@ class LoteriaViewModel: ViewModel() {
                 if (nuevoNum !in numeros) {
                     numeros.add(nuevoNum)
                     _lotoNumbers.value = numeros.toList()
-                    delay(1500)
+                    delay(2000)
                 }
             }
 
